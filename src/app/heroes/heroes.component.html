@@ -1,0 +1,12 @@
+<div>
+    <label for="name">Digite o nome do herói: </label>
+    <input id="name" [(ngModel)]="hero.name" placeholder="name">
+</div>
+<div>
+    <label for="name">Digite o poder do herói: </label>
+    <input id="name" [(ngModel)]="hero.power" placeholder="power">
+</div>
+<h2>{{hero.name | uppercase}}</h2>
+<div><span>id: </span>{{hero.id}}</div>
+<div><span>name: </span>{{hero.name}}</div>
+<div><span>power: </span>{{hero.power}}</div>
